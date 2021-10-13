@@ -3,3 +3,8 @@
     text-align: center;
     color: white;
   }
+.nyheter {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
