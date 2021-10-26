@@ -3,11 +3,6 @@
     text-align: center;
     color: white;
   }
-.nyheter {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
   ul {
   list-style-type: none;
   display: block; 
