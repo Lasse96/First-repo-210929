@@ -8,3 +8,41 @@
     top: 8px;
     right: 16px;
   }
+  ul {
+  list-style-type: none;
+  display: block; 
+  padding-left: 0;
+}
+li {
+  float: left;
+  padding: 5cm;  
+  color: rgb(0, 0, 0);
+}
+li a { 
+  text-decoration: none; 
+  color: rgb(0, 0, 0); 
+  padding: 1px 1px;
+  display: inline-block; 
+  text-align: center;
+}
+.menn    {
+position: absolute;
+top: 37px;
+left: 983px;
+}
+.logo {
+  position: absolute;
+  top: 8px;
+  left: 29px;
+}
+.nyheter {
+position: absolute;
+top: 37px;
+left: 782px;
+}
+.kvinner {
+position: absolute;
+top: 37px;
+left: 1145px;
+}
+
