@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    header{
+    background-image: url("/images/pexels-gabriela-palai-395242.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    }
+    .forside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid olive;
+}
+.logo img{
+    width: 274px;
+}
+.forsidebilde{
+    overflow: hidden;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-container > li {
+    list-style-type: none;
+    padding: 50px;
+    text-align: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
+
+}
+/*.nyheterhead{
+    position: absolute;
+    top: 57px;
+    left: 782px;
+}/**/
+
+
+
+
+
+
+/*husk å endre style/**/
