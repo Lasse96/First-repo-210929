@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     }
-    header{
+header{
     background-image: url("/images/pexels-gabriela-palai-395242.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     }
-    .forside{
+.forside{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,6 +17,7 @@
 }
 .logo img{
     width: 274px;
+    padding: 28px 0 0 46px;
 }
 .forsidebilde{
     overflow: hidden;
@@ -25,23 +26,47 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    list-style-type: none;
 }
 .flex-container > li {
-    list-style-type: none;
-    padding: 50px;
+    padding: 57px 0 0 90px;
     text-align: center;
     justify-content: space-between;
-    text-decoration: none;
     width: 100%;
-
+    margin-right: 10px;
 }
-/*.nyheterhead{
+li a{
+    text-decoration: none;
+    width: 100px;
+    display: inline-block; 
+    color: black; 
+    padding: 2px 5px; 
+    text-align: center
+}
+li a:hover {  
+    color: white;
+}
+.nyheterhead, .mennhead, .kvinnerhead{
+    font: normal normal bold normal 24px/1.5 Noto Sans SC, sans-serif;
+    text-transform: uppercase;
+}
+.about, .kontakt{
+    font: normal normal bold normal 18px/1.5 Noto Sans SC, sans-serif;
+    text-transform: uppercase;
+}
+#searchbox {
+    display: none;
+}
+input#search{
+    display: none;
+}
+input#search:checked ~ #searchbox{
+    display: block;
     position: absolute;
-    top: 57px;
-    left: 782px;
-}/**/
+    right: 20px;
 
-
+    
+}
 
 
 
