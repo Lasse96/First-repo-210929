@@ -7,9 +7,7 @@
     <title>Rain</title>
     <link rel="stylesheet" href="stylemob.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
    
 </head>
 <body>
@@ -26,37 +24,37 @@
             </ul>
         </nav>
         <nav >
-          <ul class="flex-container">
+          <ul class="topright">
             <li class="about"><a href="about.html">Om Oss</a></li>
             <li class="kontakt"><a href="kontakt.html">Kontakt Oss</a></li>
           </ul>
         </nav>
         <div>
           <label for="search">
-            <img src="./images/icons/searchicon.svg" alt="searchicon">
+            <img src="./images/icons/searchicon.svg" alt="searchicon" class="searchicon">
           </label>
           <input type="checkbox" id="search">
           <input type="search" id="searchbox" placeholder="Search...">
-          <a href="profil.html"><img src="./images/icons/accounticon.svg" alt="accounticon"></a>
-          <a href="cart.html"><img src="./images/icons/shoppingicon.svg" alt="shoppingicon"></a>
+          <a href="profil.html"><img src="./images/icons/accounticon.svg" alt="accounticon" class="accounticon"></a>
+          <a href="cart.html"><img src="./images/icons/shoppingicon.svg" alt="shoppingicon" class="shoppingicon"></a>
         </div> 
       </div>
     </header>
     <main>
         <section>
-          <div>
+          <div class="push">
             <h1>Pushing The Comfort Zone</h1>
-            <li class="nyhetknapp"><a href="nyheter.html">Nyheter</a></li>
+            <button class="nyhetknapp"><a href="nyheter.html">Nyheter</a></button>
           </div>
         </section>
-        <section>
-          <div>
+        <section class="mk">
+          <div class="mennside">
             <a href="menn.html"><img src="./images/stephen-arnold-8ItNia0nMVA-unsplash.jpg" alt="Mennbilde" width="274" height="149" ></a>
-            <li class="mennknapp"><a href="menn.html">Menn</a></li>
+            <button class="mennknapp"><a href="menn.html">Menn</a></button>
           </div>
-          <div>
+          <div class="kvinnerside">
             <a href="kvinner.html"><img src="./images/pexels-matt-hardy-2755165.jpg" alt="Kvinnebilde" width="274" height="149" ></a>
-            <li class="kvinnerknapp"><a href="kvinner.html">Kvinner</a></li>
+            <button class="kvinnerknapp"><a href="kvinner.html">Kvinner</a></button>
           </div>
         </section>
         <section>
@@ -73,11 +71,11 @@
         <h2>NYHETSBREV</h2>
         <p>Meld deg inn for å få tilsendt nyhetsbrevene våre på epost</p>
         <input type="email" name="mail" id="mail" placeholder="Epost adresse">
-        <input type="button" value="Meld inn">
+        <button id="meldinn">Meld inn</button>
       </div>
       <div class="footerinfo">
-        <h2>Om Oss</h2>
-        <h2>Kontakt Oss</h2>
+        <h2><a href="about.html">Om Oss</a></h2>
+        <h2><a href="kontakt.html">Kontakt Oss</a></h2>
       </div>
       <i class="fab fa-twitter"></i>
       <i class="fab fa-facebook-square"></i>

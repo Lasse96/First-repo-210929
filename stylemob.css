@@ -13,7 +13,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid olive;
 }
 .logo img{
     width: 274px;
@@ -35,6 +34,25 @@ header{
     width: 100%;
     margin-right: 10px;
 }
+.about{  
+    position: absolute;
+    top: 4px;
+    left: 1653px;
+}
+.kontakt{
+    position: absolute;
+    top: 4px;
+    left: 1761px;
+}
+.topright{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 5px 0 0 9px;
+    text-align: center;
+    width: 100%;
+}
 li a{
     text-decoration: none;
     width: 100px;
@@ -51,8 +69,8 @@ li a:hover {
     text-transform: uppercase;
 }
 .about, .kontakt{
-    font: normal normal bold normal 18px/1.5 Noto Sans SC, sans-serif;
-    text-transform: uppercase;
+    font: normal normal bold normal 14px/1.5 Noto Sans SC, sans-serif;
+    text-transform: uppercase;   
 }
 #searchbox {
     display: none;
@@ -64,11 +82,74 @@ input#search:checked ~ #searchbox{
     display: block;
     position: absolute;
     right: 20px;
+}
 
-    
+.accounticon, .searchicon, .shoppingicon{
+    filter: invert(34%) sepia(84%) saturate(723%) hue-rotate(159deg) brightness(99%) contrast(88%);
+    margin-right: auto;
+    width: 34px; height: 34px;
+}
+.push{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 662px;
+    left: 657px;
+}
+h1{
+    font: normal normal bold normal 48px/1.5 Noto Sans JP, sans-serif; 
+    color: white;   
+}
+button{
+    text-decoration: none;
+    background-color: #B07A3C;
+    border: none;
+    margin: auto;
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    display: inline-block;
+    font: normal normal bold normal 36px/1.5 Noto Sans JP, sans-serif;
+    border-radius: 63px;
+    width: 232px;
+      }
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+button:hover{
+    background-color: #FA9E34;
+    color: black;
+}
+.mennside img, .kvinnerside img{
+    width: 476px; height: 713px;
+}
+.mk{
+    display: flex;
+    margin-top: 70px;
+    position: relative;
+    left: 194px;
+}
+.mennside, .kvinnerside{
+    position: relative;
+    text-align: center;
+    margin-left: 200px;
+}
+.mennknapp, .kvinnerknapp{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
 
 
+
+
+
+
+
+
 /*husk å endre style/**/
+/*minimizing av side e fuckd/**/
