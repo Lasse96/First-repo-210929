@@ -34,7 +34,7 @@ header{
     width: 100%;
     margin-right: 10px;
 }
-.about{  
+/* .about{   
     position: absolute;
     top: 4px;
     left: 1653px;
@@ -43,13 +43,14 @@ header{
     position: absolute;
     top: 4px;
     left: 1761px;
+}*/
+.test{
+    flex-direction: column;
 }
 .topright{ 
     display: flex;
     justify-content: space-between;
-    align-items: center;
     list-style-type: none;
-    padding: 5px 0 0 9px;
     text-align: center;
     width: 100%;
 }
@@ -125,15 +126,14 @@ button:hover{
     width: 476px; height: 713px;
 }
 .mk{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
     margin-top: 70px;
-    position: relative;
-    left: 194px;
 }
 .mennside, .kvinnerside{
     position: relative;
     text-align: center;
-    margin-left: 200px;
+
 }
 .mennknapp, .kvinnerknapp{
   position: absolute;
@@ -141,9 +141,23 @@ button:hover{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
-
+.grid-spes{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+    margin: 0 0 10px 0;
+}
+.grid-spes h2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.grid-spes img{
+    width: 345px; height: 400px;
+    align-items: center;
+    border: 0px;
+    padding: 0px;
+    column-gap: 0px;
+}
 
 
 
