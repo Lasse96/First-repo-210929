@@ -14,41 +14,43 @@
 
     <header>
       <div class="forside"> 
-        <div class="logo"><a href="index.html"><img src="./images/RainyDays_Logo-2.png" alt="Logo"></a> 
+        <div class="logo flex-column"><a href="index.html"><img src="./images/RainyDays_Logo-2.png" alt="Logo"></a> 
         </div>
-        <nav >
+        <nav class="flex-column">
             <ul class="flex-container">
               <li class="nyheterhead"><a href="nyheter.html">Nyheter</a></li>
               <li class="mennhead"><a href="menn.html">Menn</a></li>
               <li class="kvinnerhead"><a href="kvinner.html">Kvinner</a></li>
             </ul>
         </nav>
-        <div class="test">
-        <nav >
-          <ul class="topright">
-            <li class="about"><a href="about.html">Om Oss</a></li>
-            <li class="kontakt"><a href="kontakt.html">Kontakt Oss</a></li>
-          </ul>
-        </nav>
-        <div>
-          <label for="search">
-            <img src="./images/icons/searchicon.svg" alt="searchicon" class="searchicon">
-          </label>
-          <input type="checkbox" id="search">
-          <input type="search" id="searchbox" placeholder="Search...">
-          <a href="profil.html"><img src="./images/icons/accounticon.svg" alt="accounticon" class="accounticon"></a>
-          <a href="cart.html"><img src="./images/icons/shoppingicon.svg" alt="shoppingicon" class="shoppingicon"></a>
-        </div> 
+        <div class="test flex-column">
+          <div class="toprightall">
+            <nav >
+              <ul class="topright">
+                <li class="about"><a href="about.html">Om Oss</a></li>
+                <li class="kontakt"><a href="kontakt.html">Kontakt Oss</a></li>
+              </ul>
+            </nav>
+            <div class="topicon">
+              <label for="search">
+                <img src="./images/icons/searchicon.svg" alt="searchicon" class="searchicon">
+              </label>
+              <input type="checkbox" id="search">
+              <input type="search" id="searchbox" placeholder="Search...">
+              <a href="profil.html"><img src="./images/icons/accounticon.svg" alt="accounticon" class="accounticon"></a>
+              <a href="cart.html"><img src="./images/icons/shoppingicon.svg" alt="shoppingicon" class="shoppingicon"></a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div>
+        <div class="push">
+          <h1>Pushing The Comfort Zone</h1>
+          <button class="nyhetknapp"><a href="nyheter.html">Nyheter</a></button>
         </div>
       </div>
     </header>
     <main>
-        <section>
-          <div class="push">
-            <h1>Pushing The Comfort Zone</h1>
-            <button class="nyhetknapp"><a href="nyheter.html">Nyheter</a></button>
-          </div>
-        </section>
         <section class="mk">
           <div class="mennside">
             <a href="menn.html"><img src="./images/stephen-arnold-8ItNia0nMVA-unsplash.jpg" alt="Mennbilde"></a>
@@ -79,7 +81,7 @@
       <div class="footerinfo">
         <h2><a href="about.html">Om Oss</a></h2>
         <h2><a href="kontakt.html">Kontakt Oss</a></h2>
-      </div>
+      </div> 
       <i class="fab fa-twitter"></i>
       <i class="fab fa-facebook-square"></i>
       <i class="fab fa-instagram"></i>
