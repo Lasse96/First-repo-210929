@@ -3,10 +3,25 @@
     padding: 0;
     }
 @media screen and (max-width: 1250px){
-    .flex-container, .test, .spes, .liten, footer .nyhetsbrev{
+    .flex-container, div .topright, .spes, .liten, footer .nyhetsbrev, div .sok{
         display: none;
         }
     }
+@media screen and (min-width: 1250px){
+        .menu{
+            display: none;
+            }
+        }
+@media screen and (max-width: 550px){
+        .topicon{
+            padding-top: 200px;
+            }
+        }   
+@media screen and (max-width: 590px){
+        .logo{
+            max-width: 100px;
+                }
+            } 
 @media screen and (max-width: 1250px){
     section.mk{
         /* display: flex;
@@ -35,7 +50,7 @@ header{
 .logo img{
     max-width: 274px;
     padding: 28px 0 0 46px;
-    flex-shrink: 10;
+    flex-shrink: 5;
     }
 .forsidebilde{
     overflow: hidden;
@@ -57,7 +72,7 @@ header{
 .firstbilde{
     object-fit: cover;
 }
-.test{
+.top{
     flex-direction: column;
     width: 250px;
     }
@@ -131,7 +146,7 @@ input#search:checked ~ #searchbox{
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 85%;
+    top: 87%;
     left: 50%;
     transform: translate(-50%, -50%);
     justify-content: space-around;
@@ -259,50 +274,43 @@ a{
 .footerinfo h2:hover{
     color: black;
     }
-    nav.hamburger {
-        display: none;
-        /* By default hide the navigation menu */
+nav.hamburger {
+    display: none;
     }
-    
-    input#hamburger-menu {
-        display: none; /* Hide the checkbox */ 
+input#hamburger-menu {
+    display: none;
     }
-    
-    input#hamburger-menu:checked ~ nav.hamburger {
-        display: block; 
-        /* Display nav.hamburger block when checkbox is checked only */ 
+input#hamburger-menu:checked ~ nav.hamburger {
+    display: block;  
     }
-    
-    label[for=hamburger-menu] { 
-      font-size: 2em;
+label[for=hamburger-menu] { 
+  font-size: 2em;
     }
-    
-    /* Style the menu itself */ 
-    nav.hamburger ul { 
-        list-style-type: none;
-        display: inline-block; 
-        padding: 0;
-        margin: 0;
-        width: 120px;
+nav.hamburger ul { 
+    list-style-type: none;
+    display: inline-block; 
+    padding: 0;
+    margin: 0;
+    width: 120px;
     }
-    nav.hamburger li {     
-        margin-bottom: 2px; 
+nav.hamburger li {     
+    margin-bottom: 2px; 
     }
-    nav.hamburger li a { 
-        text-decoration: none; 
-        color: white; 
-        background: black;
-        padding: 2px 5px;
-        border: 1px solid black;
-        display: block; 
-        text-align: center;
+nav.hamburger li a { 
+    text-decoration: none; 
+    color: white; 
+    background: black;
+    padding: 2px 5px;
+    border: 1px solid black;
+    display: block; 
+    text-align: center;
     }
-    nav.hamburger li:last-child {
-       margin-bottom: 0;
+nav.hamburger li:last-child {
+    margin-bottom: 0;
     }
-    nav.hamburger li a:hover {
-        color: black; 
-        background: white;  
+nav.hamburger li a:hover {
+    color: black; 
+    background: white;  
     }
     
 
