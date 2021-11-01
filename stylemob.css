@@ -27,7 +27,7 @@
     section.mk{
         display: flex;
         flex-direction: column;
-        object-fit: cover;
+        width: 200px;
         }
     }
 @media screen and (max-width: 480px){
@@ -179,6 +179,7 @@ button:hover{
     }
 .mennside img, .kvinnerside img{
     max-width: 476px; max-height: 634px;
+    width: 100vw;
     }
 .mk{
     display: grid;
