@@ -108,7 +108,6 @@ li a:hover {
     display: none;
     background-color: #9CE1FF;
     border: 1px solid black;
-    color: rgba(#efefef, .5);
     font-size: 12pt;
     font-weight: 100;
     margin-top: 60px;
@@ -235,7 +234,7 @@ hr{
     padding: 35px 0 0 84px;
     }
 .nyhetsbrev h2{
-    font: normal normal medium normal 1.05vw/1.5 Noto Sans SC, sans-serif;
+    font: normal normal bold normal 1vw/1.5 Noto Sans SC, sans-serif;
     }
 .nyhetsbrev p{
     font: normal normal normal normal 0.8vw/1.5 Noto Sans JP, sans-serif;
