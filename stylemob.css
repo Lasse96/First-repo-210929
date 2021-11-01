@@ -14,12 +14,12 @@
         }
 @media screen and (max-width: 550px){
         .topicon{
-            padding-top: 200px;
+            /* padding-top: 200px; */
             }
         }   
 @media screen and (max-width: 590px){
-        .logo{
-            max-width: 100px;
+        .push h1{
+            font-size: 1.1em;
                 }
             } 
 @media screen and (max-width: 1250px){
@@ -48,9 +48,11 @@ header{
     justify-content: space-between;
     }
 .logo img{
-    max-width: 274px;
+    max-width: 100%;
     padding: 28px 0 0 46px;
     flex-shrink: 5;
+    object-fit: cover;
+    width: 274px;
     }
 .forsidebilde{
     overflow: hidden;
@@ -71,7 +73,7 @@ header{
     }
 .firstbilde{
     object-fit: cover;
-}
+    }
 .top{
     flex-direction: column;
     width: 250px;
@@ -152,9 +154,8 @@ input#search:checked ~ #searchbox{
     justify-content: space-around;
     }
 h1{
-    font: normal normal bold normal 1.5em/1.5 Noto Sans SC, sans-serif; 
+    font: normal normal bold normal 2em/1.5 Noto Sans SC, sans-serif; 
     color: white;
-    min-width: 1.5em;
     }
 button{
     text-decoration: none;
