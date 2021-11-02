@@ -24,8 +24,7 @@
                 }
             } 
 @media screen and (max-width: 1250px){
-    section.mk{
-        display: flex;
+        .mk{
         flex-direction: column;
         }
     }
@@ -223,8 +222,7 @@ button:hover{
     width: 100vw;
     }
 .mk{
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     margin-top: 70px;
     justify-content: space-around;
     }
