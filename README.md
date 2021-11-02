@@ -1,5 +1,5 @@
-# First-repo-210929
-Demo for Noroff
+# Rainydays
+Rainydays hjemmeside
 
 Owner: Lasse Strand
 
